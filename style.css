@@ -1,0 +1,52 @@
+/* Task 1 - Modal   */
+
+ dialog {
+    display: none;
+    width: 400px;
+    height: 100px;
+    /* position: fixed; */
+    /* z-index: 1; */
+    /* background-color: red; */
+    border: 0;
+    border-radius: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.modal p {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+    
+/* Task 2 */
+    
+    form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+    
+    input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+    
+    button {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+ }
+    
